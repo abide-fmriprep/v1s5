@@ -1,0 +1,92 @@
+# Title Segmentation Statistics 
+# 
+# generating_program mri_segstats
+# cvs_version 7.3.2
+# cmdline mri_segstats --in /out/sourcedata/freesurfer/sub-v1s5x0050755_ses-1/surf/rh.w-g.pct.mgh --annot sub-v1s5x0050755_ses-1 rh aparc --sum /out/sourcedata/freesurfer/sub-v1s5x0050755_ses-1/stats/rh.w-g.pct.stats --snr 
+# sysname  Linux
+# hostname dna010
+# machine  x86_64
+# user     oesteban
+# anatomy_type surface
+# 
+# SUBJECTS_DIR /out/sourcedata/freesurfer
+# subjectname sub-v1s5x0050755_ses-1
+# Annot sub-v1s5x0050755_ses-1 rh aparc
+# ColorTable /tmp/tmp.vW4458.ctab 
+# ColorTableTimeStamp 2026/03/10 07:50:49 
+# InVolFile  /out/sourcedata/freesurfer/sub-v1s5x0050755_ses-1/surf/rh.w-g.pct.mgh 
+# InVolFileTimeStamp  2026/03/10 07:50:48 
+# InVolFrame 0 
+# Only reporting non-empty segmentations
+# VertexArea_mm2 0.716648 
+# TableCol  1 ColHeader Index 
+# TableCol  1 FieldName Index 
+# TableCol  1 Units     NA 
+# TableCol  2 ColHeader SegId 
+# TableCol  2 FieldName Segmentation Id
+# TableCol  2 Units     NA
+# TableCol  3 ColHeader NVertices 
+# TableCol  3 FieldName Number of Vertices
+# TableCol  3 Units     unitless
+# TableCol  4 ColHeader Area_mm2
+# TableCol  4 FieldName Area
+# TableCol  4 Units     mm^2
+# TableCol  5 ColHeader StructName
+# TableCol  5 FieldName Structure Name
+# TableCol  5 Units     NA
+# TableCol  6 ColHeader Mean 
+# TableCol  6 FieldName Intensity Mean
+# TableCol  6 Units     unknown
+# TableCol  7 ColHeader StdDev
+# TableCol  7 FieldName Itensity StdDev
+# TableCol  7 Units     unknown
+# TableCol  8 ColHeader Min
+# TableCol  8 FieldName Intensity Min
+# TableCol  8 Units     unknown
+# TableCol  9 ColHeader Max
+# TableCol  9 FieldName Intensity Max
+# TableCol  9 Units     unknown
+# TableCol 10 ColHeader Range
+# TableCol 10 FieldName Intensity Range
+# TableCol 10 Units     unknown
+# TableCol 11 ColHeader SNR
+# TableCol 11 FieldName Intensity SNR
+# TableCol 11 Units     none
+# NRows 35 
+# NTableCols 11 
+# ColHeaders  Index SegId NVertices Area_mm2 StructName Mean StdDev Min Max Range SNR  
+  1 2000      8233     4929.6  unknown                            0.0000     0.0000     0.0000     0.0000     0.0000       -nan 
+  2 2001      1448      966.5  bankssts                          58.7488     8.1365    22.9279    86.0641    63.1362     7.2204 
+  3 2002       938      705.4  caudalanteriorcingulate           50.7009    10.2770    20.8236    69.8946    49.0710     4.9334 
+  4 2003      2512     1652.0  caudalmiddlefrontal               51.5639    14.4754    -8.2557    75.4156    83.6713     3.5622 
+  5 2005      2301     1793.7  cuneus                            42.4959    11.5248    -9.1317    77.6063    86.7380     3.6873 
+  6 2006       683      484.9  entorhinal                        36.9416    11.0710     4.3100    59.7930    55.4830     3.3368 
+  7 2007      4554     3223.1  fusiform                          47.0238    10.6569   -32.0598    72.9439   105.0037     4.4125 
+  8 2008      7588     5559.5  inferiorparietal                  53.9835    14.5615   -26.7041    87.9336   114.6377     3.7073 
+  9 2009      5276     4071.4  inferiortemporal                  50.5320    13.6295   -36.2106    79.4234   115.6340     3.7075 
+ 10 2010      1571     1126.7  isthmuscingulate                  46.3278    13.3701     2.9531    74.6662    71.7131     3.4650 
+ 11 2011      7854     6029.8  lateraloccipital                  47.4392    12.5219   -53.5636    87.6318   141.1954     3.7885 
+ 12 2012      4566     3297.0  lateralorbitofrontal              47.4261    16.1285   -64.2092    84.4560   148.6652     2.9405 
+ 13 2013      3972     3014.0  lingual                           40.1486    11.6925   -56.0967    74.6782   130.7749     3.4337 
+ 14 2014      3063     2386.4  medialorbitofrontal               42.7830    20.6010   -73.2633    74.1651   147.4283     2.0767 
+ 15 2015      5488     4310.1  middletemporal                    54.0430    12.3588   -34.2961    87.9224   122.2185     4.3728 
+ 16 2016      1016      727.7  parahippocampal                   41.3623    10.8430     3.8697    61.7954    57.9257     3.8146 
+ 17 2017      2493     1610.6  paracentral                       49.1690    10.7441     0.9183    73.9789    73.0606     4.5764 
+ 18 2018      1854     1357.6  parsopercularis                   53.6077    10.1945    18.5327    70.1383    51.6057     5.2585 
+ 19 2019      1324     1073.4  parsorbitalis                     52.3351    13.6882   -28.0888    82.8981   110.9868     3.8234 
+ 20 2020      2024     1506.8  parstriangularis                  54.6860    11.9594    -5.1675    79.2930    84.4605     4.5727 
+ 21 2021      1724     1308.9  pericalcarine                     37.6814    10.1016   -56.3967    83.2282   139.6249     3.7303 
+ 22 2022      5153     3597.4  postcentral                       44.4856    15.3142   -25.6477    75.2249   100.8725     2.9049 
+ 23 2023      1800     1296.9  posteriorcingulate                49.8604    12.6281     5.7924    77.0477    71.2554     3.9484 
+ 24 2024      6501     4452.4  precentral                        46.5583    12.6432    -8.1416    76.3122    84.4538     3.6825 
+ 25 2025      6205     4363.0  precuneus                         52.6735    11.0235   -35.4868    81.9261   117.4129     4.7783 
+ 26 2026       696      479.8  rostralanteriorcingulate          52.8261    10.5765    17.8425    84.1004    66.2579     4.9947 
+ 27 2027      8891     6783.8  rostralmiddlefrontal              51.5424    15.9015   -40.2713    86.0699   126.3412     3.2414 
+ 28 2028      9794     6871.1  superiorfrontal                   53.0627    15.4869    -7.7546    84.0575    91.8120     3.4263 
+ 29 2029      7348     4998.7  superiorparietal                  49.0291    15.5316   -45.6335    83.0792   128.7127     3.1567 
+ 30 2030      6650     4748.7  superiortemporal                  52.0831    11.3274   -30.8198    83.1996   114.0194     4.5980 
+ 31 2031      6286     4364.6  supramarginal                     51.8541    14.2340   -21.7177    78.2664    99.9841     3.6430 
+ 32 2032       464      402.0  frontalpole                       43.5348    15.5227    10.9457    75.6932    64.7475     2.8046 
+ 33 2033       752      590.4  temporalpole                      44.0256    13.8029   -29.1192    76.8160   105.9352     3.1896 
+ 34 2034       572      413.8  transversetemporal                40.0326     9.1379    14.3073    57.5425    43.2352     4.3809 
+ 35 2035      3244     2133.7  insula                            42.5939    15.1754  -139.6869   127.3679   267.0548     2.8068 
